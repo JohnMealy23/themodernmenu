@@ -1,0 +1,182 @@
+	@font-face{ 
+	font-family: 'Walkway';
+	src: url('font/walkwayblack_regular_macroman/Walkway_Black-webfont.eot');
+	src: url('font/walkwayblack_regular_macroman/Walkway_Black-webfont.eot?iefix') format('eot'),
+	     url('font/walkwayblack_regular_macroman/Walkway_Black-webfont.woff') format('woff'),
+	     url('font/walkwayblack_regular_macroman/Walkway_Black-webfont.ttf') format('truetype'),
+	     url('font/walkwayblack_regular_macroman/Walkway_Black-webfont.svg#webfont') format('svg');
+	}
+	
+	@font-face{ 
+	font-family: 'WalkwayBold';
+	src: url('font/walkwaybold_regular_macroman/Walkway_Black-webfont.eot');
+	src: url('font/walkwaybold_regular_macroman/Walkway_Black-webfont.eot?iefix') format('eot'),
+	     url('font/walkwaybold_regular_macroman/Walkway_Black-webfont.woff') format('woff'),
+	     url('font/walkwaybold_regular_macroman/Walkway_Black-webfont.ttf') format('truetype'),
+	     url('font/walkwaybold_regular_macroman/Walkway_Black-webfont.svg#webfont') format('svg');
+	}	
+	
+	@font-face{ 
+	font-family: 'WalkwayItalic';
+	src: url('font/walkwayoblique_regular_macroman/Walkway_Black-webfont.eot');
+	src: url('font/walkwayoblique_regular_macroman/Walkway_Black-webfont.eot?iefix') format('eot'),
+	     url('font/walkwayoblique_regular_macroman/Walkway_Black-webfont.woff') format('woff'),
+	     url('font/walkwayoblique_regular_macroman/Walkway_Black-webfont.ttf') format('truetype'),
+	     url('font/walkwayoblique_regular_macroman/Walkway_Black-webfont.svg#webfont') format('svg');
+	}
+
+	::selection{ background-color: #E13300; color: white; }
+	::moz-selection{ background-color: #E13300; color: white; }
+	::webkit-selection{ background-color: #E13300; color: white; }
+
+
+	input:invalid, textarea:invalid {
+		background-color: white;	
+	}
+
+	body {
+		background-color: #fff;
+		margin: 40px;
+		font: 13px/20px normal Helvetica, Arial, sans-serif;
+		font-family: Walkway;
+		color: rgb(95, 95, 95);
+		line-height:normal;
+		letter-spacing:2px;
+	}
+
+	a {
+		color: #003399;
+		background-color: transparent;
+		font-weight: normal;
+	}
+
+	h1 {
+		color: #444;
+		background-color: transparent;
+		border-bottom: 1px solid #D0D0D0;
+		font-size: 19px;
+		font-weight: normal;
+		margin: 0 0 14px 0;
+		padding: 14px 15px 10px 15px;
+	}
+
+	code {
+		font-family: Consolas, Monaco, Courier New, Courier, monospace;
+		font-size: 12px;
+		background-color: #f9f9f9;
+		border: 1px solid #D0D0D0;
+		color: #002166;
+		display: block;
+		margin: 14px 0 14px 0;
+		padding: 12px 10px 12px 10px;
+	}
+
+	#body{
+		margin: 0 15px 0 15px;
+	}
+	
+	p.footer{
+		text-align: right;
+		font-size: 11px;
+		border-top: 1px solid #D0D0D0;
+		line-height: 32px;
+		padding: 0 10px 0 10px;
+		margin: 20px 0 0 0;
+	}
+	
+	#container{
+		margin: 10px;
+		border: 1px solid #D0D0D0;
+		-webkit-box-shadow: 0 0 8px #D0D0D0;
+	}
+	
+	.Direction {
+
+	}
+	
+	.Ingredient {
+
+	}
+	
+	.AddAnother {
+		clear: both;
+		text-decoration:none;
+		color: #000000;
+	}
+	
+	.AddAnother:hover {
+		clear: both;
+		text-decoration:none;
+		color: #000000;
+		cursor: pointer;
+	}
+	
+	.RemoveX{
+		border: 2px solid #BBB;
+		background: #FF9E9E;
+		height: 15px;
+		width: 15px;
+		-webkit-border-radius: 18px;
+		-moz-border-radius: 18px;
+		border-radius: 18px;
+		padding: 2px 3px 2px 5px;
+		text-align: center;
+		color: white;
+		font-weight: bold;
+		display: inline;
+		margin: 2px 4px 0px 2px;
+		cursor: pointer;
+		overflow:hidden;
+   }
+   
+   .Handle {
+   	display:inline-block;
+   	margin-left: -40px;
+   	margin-top: -3px;
+   	margin-right: 30px;
+   	cursor:move;
+   }
+	
+	li.sortable-placeholder {
+		border: 1px dashed #CCC;
+		background: none;
+		height: 32px;
+	}
+		
+	input {
+		margin: 5px; 
+	}
+	
+	legend {
+		font-weight: bold;	
+	}
+	
+	fieldset {
+		padding: 15px;
+		margin-bottom: 15px;	
+		border: 1px solid #BBB;
+	}
+	
+	input[type="checkbox"] {
+
+	}
+
+	
+/* Customizations Below */
+	
+	header{
+		margin:auto;
+		display:block;
+		border: solid 1px #dadada;
+	}
+		
+	.headerTop{
+		margin:auto;
+		display:block;
+		border: solid 1px #dadada;
+		font-size:16px;
+		color:#b7bbbc;
+		padding: 20px 50px;
+	}
+
+	
